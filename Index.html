@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        plot_arts
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" ></script>
+
+    <script src="main.js"></script>
+    <!-- <script src="./lw.raster-to-gcode.js"></script> -->
+    <script type="text/javascript" src="SVGReader.js"></script>
+    <script type="text/javascript" src="svg2gcode.js"></script>
+    <script type="text/javascript" src="vec2.js"></script>
+
+    <!-- <script src="gcode.js"></script> -->
+    
+</head>
+<body> 
+    
+        <!-- <img id='myImage' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9IKFZyOY3lSvRgLQ1d_aKukyNHR8W2hzjV5FYfrklozfo9HuopA" crossorigin="Anonymous" /> -->
+        <br />
+
+        <div id="uploader" onclick="$('#filePhoto').click()">
+            click here or drag here
+            <img id='myImage' src="" crossorigin="Anonymous"/>
+        </div>
+        <input type="file" name="userprofile_picture"  id="filePhoto" />
+
+<br/>
+        <!-- <input id = "btnSubmit" type="button" value="Artstyle Ellipse"/> -->
+      
+        <input id = "btnSubmit2" type="button" value="Vertical line"/>
+        <!-- <input id = "btnSubmit4" type="button" value="crossHatch"/> -->
+        <!-- <svg id="mySVG"  height="1400" width="1450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="gg" stroke="black" fill="none" stroke-width=".2">
+                </g>
+</svg> -->
+<div id="container"></div>
+<!-- <a id="downSVG" href="">
+</a>
+<button  id='gcodeButton' disabled='' onclick="downloadGCode();">get gcode</button>
+<a id="downlink" href="">
+</a>
+-->
+
+
+<a id="downSVG2" href="">
+</a>
+<button  id='gcodeButton2' disabled='' onclick="downloadGCode2();">get gcode for circle style</button>
+<a id="downlink2" href="">
+</a> 
+
+<!-- 
+<a id="downSVG4" href="">
+</a>
+ 
+<button  id='gcodeButton4' disabled='' onclick="downloadGCode4();"> gcode for rect style</button>
+<a id="downlink4" href="">
+</a>
+       -->
+           
+          
+
+</body>
+</html>
